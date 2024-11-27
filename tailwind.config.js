@@ -4,7 +4,18 @@ module.exports = {
   content: ["./app/**/*.{js,jsx,ts,tsx}"],
   presets: [require("nativewind/preset")],
   theme: {
-    extend: {},
+    extend: {
+      animation: {
+        flash: "flash 0.1s ease-out",
+      },
+      keyframes: {
+        flash: {
+          "0%": { backgroundColor: "rgba(255, 255, 255, 0.5)" },
+          "50%": { backgroundColor: "rgba(255, 255, 255, 1)" },
+          "100%": { backgroundColor: "rgba(255, 255, 255, 0.5)" },
+        },
+      },
+    },
   },
   plugins: [],
 };

@@ -112,7 +112,9 @@ export default function Calculator() {
     <SafeAreaView className="flex-1 bg-slate-300">
       <View className="flex-1 justify-end p-4">
         <Text className="text-right text-4xl text-gray-400">{equation}</Text>
-        <Text className="text-right text-6xl font-light">{display}</Text>
+        <Text testID="display" className="text-right text-6xl font-light">
+          {display}
+        </Text>
       </View>
 
       <View className="p-2">

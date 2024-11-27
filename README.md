@@ -10,9 +10,7 @@ Este projeto é uma calculadora simples desenvolvida com **React Native** e esti
 
 - Interface moderna e responsiva com NativeWind.
 - Operações matemáticas básicas (`+`, `-`, `*`, `/`).
-- Botão de limpar (`C`) para reiniciar o cálculo.
 - Exibição do cálculo em tempo real no display.
-- Cálculo seguro com validação de expressões usando a biblioteca `mathjs`.
 
 ## Tecnologias
 
